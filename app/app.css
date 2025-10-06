@@ -1,0 +1,38 @@
+.barraNav{
+    background-color: plum;
+}
+
+.bi{
+ vertical-align: -.125em;
+}
+
+.navBoton{
+    background-color: rgb(239, 202, 239);
+    margin-right: 5px;
+    color: rgb(125, 62, 125);
+    border-radius: 5%;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px){
+    .navBoton{
+    background-color: rgb(247, 175, 221);
+    margin-right: 5px;
+    color: rgb(141, 56, 122);
+    border-radius: 5%;
+    }
+    .barraNav{
+    background-color: rgb(221, 160, 209);
+}
+}
+
+@media screen and (max-width: 760px){
+    .navBoton{
+    background-color: rgb(175, 235, 247);
+    margin-right: 5px;
+    color: rgb(56, 141, 140);
+    border-radius: 5%;
+    }
+    .barraNav{
+    background-color: rgb(160, 212, 221);
+    }
+}
