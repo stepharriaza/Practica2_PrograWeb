@@ -1,8 +1,8 @@
-# Practice 2 - AngularJS - Web Programming
+# Practice #2 - AngularJS - Web Programming
 
 This project aims to implement the logic of package delivery applications, allowing you to log and track package shipments through this page.
 
-## Installing AngularJS
+## Installing AngularJS Components
 To create a project in AngularJS format, run the command:
 ```bash
 ng new <project_name>
@@ -39,4 +39,5 @@ Once the project has started, open a browser and navigate to `http://localhost:4
 The project contains various pages that you can navigate and interact with.
 - Order Log: allows you to create new orders.
 - Order Update: updates the status of an order and saves its information.
+
 - Package Tracking: allows you to view the history of a package's status.
