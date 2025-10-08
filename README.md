@@ -5,19 +5,23 @@ This project aims to implement the logic of package delivery applications, allow
 ## Installing AngularJS
 To create a project in AngularJS format, run the command:
 ```bash
-ng new project_name
+ng new <project_name>
 ```
 This will create the project in which the various codes found in the repository will be implemented.
 
 ## Downloading the Project
-The project must be downloaded from Github, and the files must be added to the src folder.
+The project must be downloaded from Github, and the files must be added to the src folder. To download the project, run the following command:
 
-Angular includes several scaffolding tools that automate the basic structure of a project by creating folders, code, and other components. To create a component, run the following:
+```bash
+git clone <Repository_url>
+```
+
+Angular includes various scaffolding tools that automate the basic structure of a project by creating folders, code, and other components. To create a component, run the following:
 
 ```bash
 ng generate component component-name
 ```
-This gives you access to a complete list of available schemas. To learn about the different components that Angular has, run the following command:
+This gives you access to a complete list of available schemas. To learn about the different components Angular supports, run the following command:
 
 ```bash
 ng generate --help
@@ -28,11 +32,11 @@ To start the project, run the command:
 ```bash
 ng serve
 ```
-Once the project is started, open a browser and navigate to `http://localhost:4200/`. The application will automatically reload based on changes made to the project files. Once these two actions are completed, you can navigate through the project.
+Once the project has started, open a browser and navigate to `http://localhost:4200/`. The application will automatically reload based on changes made to the project files. Once these two actions are completed, you can navigate through the project.
 
-## Use
+## Usage
 
-The project contains different pages that you can navigate and interact with.
+The project contains various pages that you can navigate and interact with.
 - Order Log: allows you to create new orders.
 - Order Update: updates the status of an order and saves its information.
 - Package Tracking: allows you to view the history of a package's status.

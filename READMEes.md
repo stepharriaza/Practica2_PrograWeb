@@ -5,12 +5,16 @@ Este proyecto busca inplementar la lógica de las aplicaciones de paquetería, p
 ## Instalación de AngularJS
 Para crear un proyecto en formato AngularJS se debe ejecutar el comando: 
 ```bash
-ng new nombre_del_proyecto
+ng new <nombre_del_proyecto>
 ```
 Este creara el proyecto en el cual se irán implementando los distindos códigos que se encuentran en el repositorio.
 
 ## Descarga del Proyecto 
-El proyecto se debe de descargar desde Github y los archivos deben irse agregando dentro de la carpeta src.
+El proyecto se debe de descargar desde Github y los archivos deben irse agregando dentro de la carpeta src. Para realizar la descarga se debe de ejecutar el siguiente comando: 
+
+```bash
+git clone <urlDelRepositorio>
+```
 
 Angular incluye distintas herramientas scaffolding que automatiza la estructura básica de un proyecto creando carpetas, código y otros componentes. Para crear un componente se debe ejecutar lo siguiente :
 
