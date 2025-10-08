@@ -1,31 +1,38 @@
-# Practica 2 - AngularJS - Programación Web
+# Practice 2 - AngularJS - Web Programming
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
-Este proyecto busca inplementar la lógica de las aplicaciones de paquetería, por lo que permite realizar registros de paquetes de envío y darles seguimiento a través de esta misma página. 
+This project aims to implement the logic of package delivery applications, allowing you to log and track package shipments through this page.
 
-## Inicio del Proyecto
-Para iniciar el proyecto es necesario ejecutar el comando:
+## Installing AngularJS
+To create a project in AngularJS format, run the command:
 ```bash
-ng serve
+ng new project_name
 ```
-Una vez iniciado el proyecto, se debe de abrir el navegador y dirigirse a `http://localhost:4200/`. La aplicación estará recarcandose de forma automática según sean las modificaciones que se vayan realizando en los archivos del proyecto. Realizadas estas dos acciones ya se puede navegar en el proyecto. 
+This will create the project in which the various codes found in the repository will be implemented.
 
-## Codigo scaffolding
+## Downloading the Project
+The project must be downloaded from Github, and the files must be added to the src folder.
 
-Angular incluye distintas herramientas scaffolding tools que automatiza la estructura básica de un proyecto creando carpetas, código y otros componentes. Para crear un componente se debe ejecutar lo siguiente :
+Angular includes several scaffolding tools that automate the basic structure of a project by creating folders, code, and other components. To create a component, run the following:
 
 ```bash
 ng generate component component-name
 ```
-Así se puede acceder a una lista completa de los esquemas disponibles. Para conocer los distintos componentes con los que cuenta Angular se debe ejecutar el siguiente comando: 
+This gives you access to a complete list of available schemas. To learn about the different components that Angular has, run the following command:
 
 ```bash
 ng generate --help
 ```
 
-## Páginas 
+## Starting the Project
+To start the project, run the command:
+```bash
+ng serve
+```
+Once the project is started, open a browser and navigate to `http://localhost:4200/`. The application will automatically reload based on changes made to the project files. Once these two actions are completed, you can navigate through the project.
 
-El proyecto contiene distintas páginas con en las que se pueden navegar e interactuar. 
-- Registro de Ordenes: permite crear nuevas ordenes. 
-- Actualización de Ordenes: realiza actualizaciones del estado de una orden y guarda la información de esta misma.
-- Seguimiento de Paquetes: permite visualizar el historial del estado de un paquete. 
+## Use
+
+The project contains different pages that you can navigate and interact with.
+- Order Log: allows you to create new orders.
+- Order Update: updates the status of an order and saves its information.
+- Package Tracking: allows you to view the history of a package's status.
